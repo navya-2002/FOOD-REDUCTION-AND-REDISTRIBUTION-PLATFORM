@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Food Donation</title>
+	<link rel="stylesheet" type="text/css" href="donationstyle.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>Food Donation</h1>
+		<form>
+			<label for="food-type">Type of food:</label>
+			<select id="food-type" name="food-type">
+				<option value="cooked">Cooked food</option>
+				<option value="raw">Raw food</option>
+				<option value="packed">Packed food</option>
+			</select>
+
+			<label for="location">Location:</label>
+			<input type="text" id="location" name="location" required>
+
+			<label for="quantity">Quantity:</label>
+			<input type="number" id="quantity" name="quantity" required>
+
+			<label for="pick-up-date">Date to pick up:</label>
+			<input type="date" id="pick-up-date" name="pick-up-date" required>
+
+			<label for="pick-up-time">Time to pick up:</label>
+			<input type="time" id="pick-up-time" name="pick-up-time" required>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+
+</body>
+
+</html>

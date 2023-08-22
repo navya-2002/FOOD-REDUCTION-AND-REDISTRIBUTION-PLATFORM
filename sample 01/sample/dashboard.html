@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboardstyle.css">
+</head>
+<body>
+        <div>
+        <button id="logout">Logout</button>
+        
+    </div>
+    <div class="container">
+        <div class="dashboard">
+            <h1>Welcome to Your Dashboard</h1>
+            <div class="user-profile">
+                <p><strong>Username:</strong> <span id="user-username"></span></p>
+                <p><strong>Name:</strong> <span id="user-name"></span></p>
+                <p><strong>Address:</strong> <span id="user-address"></span></p>
+                <p><strong>City:</strong> <span id="user-city"></span></p>
+                <p><strong>Country:</strong> <span id="user-country"></span></p>
+                <p><strong>Email:</strong> <span id="user-email"></span></p>
+                <p><strong>Phone:</strong> <span id="user-phone"></span></p>
+                <p><strong>User Type:</strong> <span id="user-type"></span></p>
+            </div>
+            <div class="header">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="container">
+                <div class="tile">
+                    <h3>Donation History</h3>
+                    <p>View your donation history</p>
+                </div>
+                <div class="tile">
+                    <h3>Update Profile</h3>
+                    <p>Update your profile information</p>
+                </div>
+                <div class="tile">
+                    <h3>Change Password</h3>
+                    <p>Change your password</p>
+                </div>
+            <div class="feature-tiles">
+               
+                <div class="tile" id="notifications">Notifications</div>
+                <div class="tile" id="donation-stats">Donation Statistics</div>
+                <div class="tile" id="community-forum">Community Forum</div>
+                <div class="tile" id="recommendations">Personalized Recommendations</div>
+                <a href="donation.html" class="tile">Donate Now</a>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+   
+</body>
+</html>
+    </div>
+    <div>
+        <button id="logout">Logout</button>
+        
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Your App Name. All rights reserved.</p>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-database.js"></script>
+    <script src="dashboardscript.js"></script>
+</body>
+</html>
